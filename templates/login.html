@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <style>
+        body{
+            background-image: url(https://i.ibb.co/ZSRqLpr/pexels-irina-iriser-1090977.jpg);
+            background-size: cover;
+        }
+        .c1{
+            border:3px solid red;
+            border-radius: 15px;
+            padding: 10px;
+            margin-top: 15%;
+            background-color: rgba(237, 198, 140, 0.642);
+        }
+    </style>
+</head>
+<body>
+    <div class="c2">
+    <form action="index.html">
+    <table align="center" class="c1"> 
+        <tr>
+            <td colspan="2" style="color:red;"><h2>Login And Sign Up</h2></td>
+        </tr>
+        <tr>
+            <td style="color:blue;"> <label for="name">Name</label></td>
+            <td><input type="text" placeholder="Enter your Name" id="name" required></td>
+        </tr>
+        <tr>
+            <td style="color:blue;"><label for="rollno">Roll No</label></td>
+            <td><input type="text" placeholder="Enter your Roll No" id="rollno"></td>
+        </tr>
+        <tr>
+            <td style="color:blue;"><label for="email">Email</label></td>
+            <td><input type="email" placeholder="Enter your Email" id="email"></td>
+        </tr>
+        <tr>
+            <td style="color:blue;">phone no</td>
+            <td><input type="number" placeholder="Enter your Phone no"></td>
+        </tr>
+        <tr>
+            <td style="color:blue;">gender</td>
+            <td><select required> 
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td style="color:blue;">are you eligible</td>
+            <td>Yes<input type="radio" name="eligible">No<input type="radio" name="eligible"></td>
+        </tr>
+        <tr>
+            <td style="color:blue;">DOB</td>
+            <td><input type="date" ></td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="reset" value="reset">
+            </td>
+            <td>
+                <input type="submit" value="submit">
+            </td>
+        </tr>
+    </table>
+    </form>
+    </div>
+</body>
+</html>
