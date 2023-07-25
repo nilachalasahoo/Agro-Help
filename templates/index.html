@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.ibb.co/p0zVY8Q/tree.png" type="image/png" />
+    <title>AgroHelp</title>
+    <style>
+        p{
+            font-size: larger;
+            color: white;
+            margin-left: 7%;
+            margin-right: 7%;
+            margin-bottom: 1%;
+            text-decoration: solid;
+        }
+        .back{
+            background-image: url("https://i.ibb.co/hf5nNMG/pexels-guna-sekar-1486612.jpg");
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            color: red;
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+            color: rgb(155, 5, 255);
+        }
+        h3{
+            color: red;
+        }
+        .c1{
+            position: sticky;
+            top:3px;
+            border-radius: 20px;
+            background-color: blue;
+        }
+        .c1 ul{
+            overflow: auto ;
+        }
+        .c1 li{
+            float: left;
+            list-style: none;
+            margin: 1% 3.5%;
+        }
+        input{
+            margin:auto;
+            padding: 1% 8%;
+            font-size: medium;
+        }
+        .form-box {
+            margin: auto;
+            width: 27%;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding-top: 0.5%;
+            padding-right: 3%;
+            padding-left: 3%;
+            padding-bottom: 2%;
+            background-color: rgba(237, 214, 140, 0.642);
+        }
+        .input{
+            margin-left: 13%;
+        }
+        .upload{
+            margin-top: 2%;
+            margin-left: 35%;
+            background-color: blue;
+            color: aliceblue;
+            font-size: medium;
+        }
+        i{
+            font-size: larger;
+            color: red;
+        }
+        #i{
+            margin: 0px 0px;
+        }
+        #hm{
+            padding-left: 1%;
+        }
+        u{
+          color: yellow;
+          text-decoration: underline;
+          text-decoration-color: rgb(244, 154, 17);
+        }
+        #i2{
+            position: absolute;
+            color: white;
+            font-size: x-large;
+        } 
+        table{
+            margin:20px;
+        } 
+        button{
+            font-size: medium;
+        }
+    </style>
+</head>
+<body class="back">
+    <div class="c1">
+        <ul>
+            <li id="i"><img src="https://i.ibb.co/p0zVY8Q/tree.png" alt="" width="55px" height="45px"></li>
+            <li><input type="search" name="search" id="search" placeholder="Enter to Search"></li>
+            <li><button type="submit">Search</button></li>
+            <li id="hm"><a href="index.html"><u>Home</u></a></li>
+            <li ><a href="result1.html">Result</a></li>
+            <li><a href="login.html" target="_blank">Login</a></li>
+            <li><a href="">About </a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </div>
+    <h1>PLANT DISEASE DETECTOR</h1>
+    <p>This is a smart AI website to detect the various plant disease . Now a days it is very difficult for a farmer to find out the plant affected by which disease . It is smart helper tool for farmer to detect the disease and gives description about it along with provide link of another wesite for more information about that disease.<br><br> Generally this website to detect the plant disease with the help of picture of affected part of plant.Not it initially made such a way to detect the disease through the leaf of the plant .<br><br><i>Instruction :-</i> Take a good picture of the affected part of the plant leaf . Click on choose file and open the picture u have taken .Now click on upload button for the result. </p>
+    <div class="form-box">
+        <form method="POST" enctype="multipart/form-data" action="/result">
+            <h2>upload the image to detect the disease in plant</h2>
+            <input type="file" name="image" class="input">
+            <input type="submit" value="Upload" class="upload">
+          </form>
+      </div>
+      
+</body>
+</html>
