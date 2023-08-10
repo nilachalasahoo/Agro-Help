@@ -13,5 +13,15 @@ Agro Help leverages the power of Artificial Intelligence, specifically Convoluti
 # DataSet
 Our dataset boasts a comprehensive collection of images, meticulously sourced to represent a diverse array of plant diseases across multiple crops. From leaves to stems, each image captures distinct disease symptoms, enabling our model to make accurate and informed predictions.Agro Help's dataset spans 40 distinct disease classes, each meticulously labeled and organized. This diversity ensures that our AI model can recognize a wide range of ailments, from common to rare, contributing to robust disease detection.Below the link of dataset:-
 [Dataset](https://drive.google.com/file/d/1meAj8xrscSjALJ5aVsWo-N2g95Zs6uQT/view?usp=sharing)
+ 
+**Size:** Over [Number of Images] high-quality images, encompassing various plant parts and disease stages.
+**Classes:** 40 disease classes, covering a spectrum of plant ailments.
+**Crop Varieties:** Representing an array of crops, our dataset mirrors real-world scenarios to enhance generalization.
 
-#
+# Model Training
+Agro Help harnesses the potential of Convolutional Neural Networks – a class of deep learning architectures tailored for image analysis. These networks simulate human visual perception, allowing our model to discern intricate patterns and features in images.
+**Model Architecture:** Our AI canvas starts as an empty Sequential model, a canvas awaiting the addition of CNN layers – each designed to capture unique features relevant to disease detection.
+**Image Transformation:** Images undergo transformation and augmentation, enhancing the model's ability to generalize. These transformations simulate real-world scenarios and variations, ensuring robustness.
+**Fit Generator:** The model flexes its muscles through rigorous training using a fit generator. This process involves iterations (epochs) during which the model refines its understanding of disease patterns and relationships.
+**Cross-Validation:** The model's prowess is assessed through cross-validation, providing insights into its performance across various datasets.
+**Saving Knowledge:** The culmination of this journey results in a trained model, which is saved in a '.h5' file. This file holds the knowledge acquired through training, poised to empower our AI-driven disease detection.
