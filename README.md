@@ -70,4 +70,5 @@ Agro Help's backend is a dynamic component that's constantly evolving. We fine-t
 # Working
 In the fertile grounds of the Agro Help GitHub repository, the seeds of innovation have germinated into a robust solution that bridges the gap between technology and agriculture. This repository not only showcases the fusion of Convolutional Neural Networks, Flask, and intuitive frontend design but embodies a collective endeavor where diverse expertise converges to cultivate a transformative AI-driven disease detection platform. As we close this chapter, the Agro Help repository stands as an invitation to join a movement that envisions a future where cutting-edge technology nurtures resilient crops, empowers farmers, and cultivates a sustainable global food supply, fostering a harmonious coexistence between the digital realm and the natural world. 🌾🌱🔬
 
+**Link of whole Project**
 # [Project](https://drive.google.com/file/d/1meAj8xrscSjALJ5aVsWo-N2g95Zs6uQT/view?usp=sharing)
