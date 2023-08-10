@@ -22,6 +22,7 @@ Our dataset boasts a comprehensive collection of images, meticulously sourced to
 
 # Model Training
 Agro Help harnesses the potential of Convolutional Neural Networks – a class of deep learning architectures tailored for image analysis. These networks simulate human visual perception, allowing our model to discern intricate patterns and features in images.
+
 **Model Architecture:** Our AI canvas starts as an empty Sequential model, a canvas awaiting the addition of CNN layers – each designed to capture unique features relevant to disease detection.
 
 **Image Transformation:** Images undergo transformation and augmentation, enhancing the model's ability to generalize. These transformations simulate real-world scenarios and variations, ensuring robustness.
@@ -31,3 +32,19 @@ Agro Help harnesses the potential of Convolutional Neural Networks – a class o
 **Cross-Validation:** The model's prowess is assessed through cross-validation, providing insights into its performance across various datasets.
 
 **Saving Knowledge:** The culmination of this journey results in a trained model, which is saved in a '.h5' file. This file holds the knowledge acquired through training, poised to empower our AI-driven disease detection.
+
+# FrontEnd
+Agro Help's frontend is meticulously crafted to offer an immersive and engaging experience. Our design philosophy revolves around simplicity, accessibility, and empowerment, ensuring that users from all walks of life can harness the power of AI with ease.
+
+**🖼️ Effortless Image Submission:** 
+Central to our frontend is the user-friendly image upload feature. With just a few clicks, users can effortlessly upload images of affected plant parts, empowering them to initiate the disease detection process seamlessly.
+
+**💼 Intuitive Navigation:** 
+Navigate through Agro Help's array of purpose-driven pages with intuitive ease. From the welcoming homepage to the insightful result page, and from the informative about section to the interactive contact page, each element is strategically placed for effortless navigation.
+
+**🌱 Cultivating Insights:**
+Once an image is uploaded, the frontend acts as the conduit between user and AI. It elegantly facilitates the transfer of image data to the backend, setting the stage for rapid and accurate disease detection.
+
+**📈 Enlightening Results:**
+The result page is where the magic comes to life. Users are presented with a visually appealing and informative display of the detected disease's name, a detailed description, and even a link to an external resource for further exploration.
+
